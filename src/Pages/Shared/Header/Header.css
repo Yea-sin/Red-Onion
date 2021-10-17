@@ -1,0 +1,25 @@
+.active-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 350px;
+}
+.active-area a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  display: inline;
+}
+.header-area a:hover {
+  transition: all linear 0.5s;
+  background-color: rgb(243, 71, 71);
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: purple;
+  display: inline;
+  white-space: nowrap;
+}
+.active {
+  background-color: red;
+  padding: 8px 15px;
+  border-radius: 20px;
+}

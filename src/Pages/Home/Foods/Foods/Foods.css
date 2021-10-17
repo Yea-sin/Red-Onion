@@ -1,0 +1,10 @@
+.menu-btn {
+}
+.menu-btn p:active {
+  background-color: red;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+.menu-btn p {
+  margin-left: 25px;
+}
