@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import "./Foods.css";
 import { Row, Container } from "react-bootstrap";
 import useFoods from "../../../../Hooks/useFoods";
 import Food from "../Food/Food";
-import { NavLink } from "react-router-dom";
 
 const Foods = () => {
   const [menu, setMenu] = useState("breakfast");
@@ -17,9 +17,9 @@ const Foods = () => {
         <p onClick={() => handleFoods("lunch")}>Lunch</p>
         <p onClick={() => handleFoods("dinner")}>Dinner</p>
       </div>
-      <div>
+      <div className="mt-4 mb-5">
         <Container>
-          <Row md={3} gx-5>
+          <Row lg={3} md={3} sm={1} className="g-5">
             {foods
               .filter((item) => item.type === menu)
               .map((food) => (

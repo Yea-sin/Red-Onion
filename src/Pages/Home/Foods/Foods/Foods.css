@@ -1,10 +1,20 @@
 .menu-btn {
+  margin-top: 35px;
+  height: 50px;
 }
-.menu-btn p:active {
+.menu-btn p {
+  margin-left: 40px;
+  cursor: pointer;
+  width: 50px;
+  font-family: fantasy;
+}
+.menu-btn p:hover {
+  border-bottom: 2px solid #000;
+  color: rgb(180, 11, 11);
+}
+/* .menu-btn p:active {
   background-color: red;
   padding: 8px 15px;
   border-radius: 20px;
 }
-.menu-btn p {
-  margin-left: 25px;
-}
+*/
